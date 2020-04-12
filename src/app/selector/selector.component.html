@@ -2,7 +2,7 @@
   <i class="material-icons" (click)="go(-1)">arrow_left</i>
 
   <span>
-    {{dateService.date | async | moment:'DD MMMM YYYY'}}
+    {{dateService.date | async | moment:'MMMM YYYY'}}
   </span>
 
   <i class="material-icons" (click)="go(1)">arrow_right</i>
