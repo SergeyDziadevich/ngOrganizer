@@ -8,7 +8,7 @@ import {DateService} from '../shared/date.service';
 })
 export class SelectorComponent implements OnInit {
 
-  constructor(private dateService: DateService) { }
+  constructor(public dateService: DateService) { }
 
   ngOnInit(): void {
   }
